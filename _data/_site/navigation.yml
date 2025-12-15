@@ -1,0 +1,14 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Team"
+    url: /team/
+  - title: "Product"
+    url: /product/
+  - title: "Roadmap"
+    url: /roadmap/
+  - title: "Pricing"
+    url: /pricing/
+  - title: "GitHub"
+    url: https://github.com/chrshdl/instrument-cluster-os
+    target: _blank

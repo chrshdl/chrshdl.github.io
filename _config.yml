@@ -1,0 +1,31 @@
+author:
+  name: "Christian Hedel"
+  avatar: "/assets/img/me.jpg"
+  bio: "I'm a software engineer focused on building reliable, thoughtfully designed systems.When not coding, I'm usually long-distance biking, shooting with Fujifilm cameras or pulling a good espresso."
+  location: "Hamburg, Germany"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/chrshdl"
+
+title: ""
+masthead_title: ""
+description: An implementation of a digital instrument cluster designed to enhance immersion in Gran Turismo 7.
+logo: "/assets/img/logo2.png"
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+#remote_theme: mmistakes/jekyll-theme-basically-basic
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-polyglot
+
+languages: ["en", "de"]
+default_lang: "de"
+lang_from_path: true
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/chrshdl/instrument-cluster-os"

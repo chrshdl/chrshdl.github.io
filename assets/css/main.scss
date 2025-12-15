@@ -1,0 +1,96 @@
+---
+---
+
+@import "minimal-mistakes";
+
+
+/* Make the author avatar render with normal corners */
+.author__avatar,
+.author__avatar img {
+  border-radius: 0 !important;
+}
+
+.author__avatar img {
+  width: clamp(120px, 18vw, 240px);
+  height: auto;
+  max-width: none;
+}
+
+
+/* === Navbar / masthead background === */
+.masthead {
+  background-color: #1E1E1E;
+  border-bottom: none;
+}
+
+/* The nav container */
+.greedy-nav {
+  background: transparent;
+}
+
+/* Links */
+.greedy-nav a,
+.site-title {
+  color: #f8fafc;
+}
+
+.greedy-nav a:hover {
+  color: #e2e8f0;
+}
+
+/* Dropdown menu background */
+.greedy-nav .hidden-links {
+  background-color: #0f172a;
+}
+
+/* Optional: hamburger icon color */
+.greedy-nav__toggle {
+  color: #f8fafc;
+}
+
+
+/* --- Compact product hero --- */
+.page__hero--overlay {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+/* Center content nicely in the shorter hero */
+.page__hero--overlay .wrapper {
+  max-width: 900px;
+}
+
+/* Keep title + excerpt tight */
+.page__hero--overlay .page__title {
+  margin-bottom: 0.4rem;
+}
+
+.page__hero--overlay .page__lead {
+  margin-bottom: 0.9rem;
+}
+
+/* Make CTA buttons look intentional in a compact space */
+.page__hero--overlay .btn {
+  margin-right: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+/* Slightly more breathing room on large screens */
+@media (min-width: 64em) {
+  .page__hero--overlay {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+/* Smaller feature_row images on the homepage only */
+.feature-icons .feature__item .archive__item-teaser {
+  text-align: left;
+}
+
+.feature-icons .feature__item .archive__item-teaser img {
+  max-width: 80px;   /* try 80–140px */
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}

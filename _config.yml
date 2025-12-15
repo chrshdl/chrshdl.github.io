@@ -1,7 +1,7 @@
 author:
   name: "Christian Hedel"
   avatar: "/assets/img/me.jpg"
-  bio: "I'm a software engineer focused on building reliable, thoughtfully designed systems.When not coding, I'm usually long-distance biking, shooting with Fujifilm cameras or pulling a good espresso."
+  bio: "Software engineer"
   location: "Hamburg, Germany"
   links:
     - label: "GitHub"
@@ -21,11 +21,7 @@ plugins:
   - jekyll-polyglot
 
 languages: ["en", "de"]
-default_lang: "de"
+default_lang: "en"
 lang_from_path: true
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/chrshdl/instrument-cluster-os"
+atom_feed:
+  hide: true
